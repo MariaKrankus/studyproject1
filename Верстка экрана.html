@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Play monster</title>
+    <style media="screen">
+      body
+        {
+          font-family: 'PT Sans', sans-serif;
+          margin: auto;
+          color: #ffffff;
+          width: 375px; height: 1218px;
+          background-color: #22273A;
+        }
+        div {
+          color: #ffffff;
+          font-size: 16;
+          padding-top: 63px;
+          padding-bottom: 63px;
+          background-color: #22273A;
+        }
+        h1 {
+          padding-top: 86px;
+          display: block;
+          font-size: 25px;
+          font-weight: normal;
+          margin: 0 auto;
+          background-color: #22273A;
+        }
+        p {
+          display: block;
+          font-size: 16px;
+          font-weight: regular;
+          margin: 0 auto;
+          background-color: #22273A;
+        }
+        .column {
+          float: left;
+          margin: 0 auto;
+        }
+
+        .left {
+          width: 124px;
+          padding-left: 24px;
+        }
+
+        .right {
+          width: 50%;
+          padding-left: 15px;
+        }
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        .button-container {
+          padding-top: 0px;
+          padding-left: 24px;
+        }
+        .button {
+          background-color: #FFFFFF;
+          color: black;
+          border: 5px hidden;
+          outline: none;
+          text-align: center;
+          font-size: 23px;
+          cursor: pointer;
+          width: 325px; height: 51px;
+          border-radius: 60px;
+        }
+        .button:active {
+          background-color: #22273A;
+          border: 2px solid white;
+          color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="row" style="padding-top:0px;padding-bottom:0px">
+      <img class="column left" style="padding-left:0px;width:375px;height:94px" src="monster/3.jpg">
+    </div>
+    <h1 style="padding-left:24px">Заказ №345234</h1>
+    <div class="row">
+      <img src="monster/2.png" height="124px" class="column left">
+      <p class="column right">Адрес доставки:<br>Улица Спиридоновка, 9
+      <p class="column right" style="padding-top:10px">Комментарий:<br>кв 79, домофон 12, этаж 8
+        <br><br>Доставка<br>12/07/2021 17:10-19:00</p>
+    </div>
+    <hr />
+    <div class="row">
+      <img src="monster/1.png" alt="" class="column left">
+      <p class="column right">5000 ₽<br>Монстр Джонатан,<br>рост — 2 м</p>
+      <p class="column right" style="color:#90939C;padding-left:15px;padding-top:10px">Довольно страшный<br>монстр рекомендуем бр...</p>
+      <p class="column right"></p>
+    </div>
+    <hr />
+    <div class="row"   style="padding-top:20px;padding-bottom:20px">
+      <p class="column left" style="color:#90939C;width:327px"> <span style="float: left">Монстр Джонатан </span><span style="float: right"> 5000 ₽ </span></p>
+      <p class="column left" style="color:#90939C;width:327px"> <span style="float: left"> Доставка </span><span style="float: right"> Бесплатно </span></p>
+    </div>
+    <hr />
+    <div class="row">
+      <p class="column left" style="width:327px;font-size:23px"> <span style="float: left">Итого</span><span style="float: right"> 5000 ₽ </span></p>
+    </div>
+    <div class="button-container">
+      <button class="button">Оформить заказ</button>
+    </div>
+    <div class="row" style="padding-top:0px;padding-bottom:0px">
+      <img class="column left" style="padding-left:0px;width:375px;height:94px" src="monster/4.jpg">
+    </div>
+  </body>
+</html>
